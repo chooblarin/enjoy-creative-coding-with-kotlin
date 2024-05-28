@@ -1,7 +1,18 @@
 <script lang="ts">
-  import Slide from "./slides/slide.svelte";
+	import Code from "./slides/code.svelte";
+	import Slide from "./slides/slide.svelte";
 </script>
 
 <Slide>
   Hello
+</Slide>
+
+<Slide>
+  World
+
+  <Code>{`
+  function hello() {
+    console.log('Hello, World!');
+  }
+  `}</Code>
 </Slide>
