@@ -11,8 +11,12 @@
   World
 
   <Code>{`
-  function hello() {
-    console.log('Hello, World!');
+  fun main() = application {
+    configure {
+      width = 800
+      height = 800
+    }
+    program {}
   }
   `}</Code>
 </Slide>
