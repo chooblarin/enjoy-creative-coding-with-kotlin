@@ -1,5 +1,5 @@
 <script lang="ts">
-  import App from '$lib/app.svelte';
+  import App from '../app.svelte';
 </script>
 
 <svelte:head>

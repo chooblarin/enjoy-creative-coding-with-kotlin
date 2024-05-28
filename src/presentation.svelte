@@ -1,7 +1,11 @@
 <script lang="ts">
-	import Code from "./slides/code.svelte";
-	import Slide from "./slides/slide.svelte";
+	import Code from "$lib/components/code.svelte";
+	import Slide from "$lib/components/slide.svelte";
+
+  import Cover from "./slides/cover.svelte";
 </script>
+
+<Cover />
 
 <Slide>
   Hello
