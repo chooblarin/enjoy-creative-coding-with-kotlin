@@ -7,7 +7,8 @@
 
 	import 'reveal.js/dist/reveal.css';
 	import 'reveal.js/dist/theme/white.css';
-// import 'reveal.js/plugin/highlight/monokai.css';
+	import './styles/app.css';
+	import './styles/reveal-custom.css';
 
 	import Presentation from './presentation.svelte';
 
