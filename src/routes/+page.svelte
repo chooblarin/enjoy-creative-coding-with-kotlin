@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Kotlinで愉しむクリエイティブコーディング</title>
+  <title>Kotlinで愉しむクリエイティブコーディング</title>
 </svelte:head>
 
 <App />
