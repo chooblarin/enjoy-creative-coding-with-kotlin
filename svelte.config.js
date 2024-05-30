@@ -11,6 +11,9 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			base: '/enjoy-creative-coding-with-kotlin'
+		},
+		alias: {
+			$assets: './src/assets'
 		}
 	}
 };
