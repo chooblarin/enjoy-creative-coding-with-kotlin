@@ -6,8 +6,13 @@
 </script>
 
 <Slide backgroundColor="black" backgroundIframe={background}>
-  <div class="text-7xl font-bold r-fit-text">
-    Kotlinで<ruby>愉<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しむクリエイティブコーディング
+  <div class="font-bold r-fit-text text-start">
+    <div>
+      Kotlinで<ruby>愉<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しむ
+    </div>
+    <div>
+      クリエイティブコーディング
+    </div>
   </div>
-  <p class="text-3xl mt-16">畠山 創太</p>
+  <div class="text-3xl mt-20">畠山 創太</div>
 </Slide>
