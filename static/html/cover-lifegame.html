@@ -19,10 +19,25 @@
 				height: 100%;
 				outline: none;
 			}
+			.logo {
+				position: fixed;
+				width: 320px;
+				height: auto;
+				left: 20px;
+				bottom: 20px;
+			}
 		</style>
 	</head>
 	<body>
 		<canvas id="canvas"></canvas>
+		<img
+			src="../images/kotlin-fest-2024/Logo_Landscape_DarkBG.svg"
+			alt="Kotlin Fest 2024"
+			width="399"
+			height="79"
+			class="logo"
+		/>
+
 		<script type="module">
 			const canvas = document.getElementById('canvas');
 
