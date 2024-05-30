@@ -3,11 +3,24 @@
   import Slide from '$lib/components/slide.svelte';
 
   import Cover from './slides/cover.svelte';
+  import KotlinXCreativeCoding from './slides/kotlin-x-creative-coding.svelte';
+  import TeachCodingToStudents from './slides/teach-coding-to-students.svelte';
+  import WhatIsCreativeCoding from './slides/what-is-creative-coding.svelte';
+  import WhatIsOpenrndr from './slides/what-is-openrndr.svelte';
+  import WhatIsProcessing from './slides/what-is-processing.svelte';
 </script>
 
 <Cover />
 
-<Slide>Hello</Slide>
+<WhatIsProcessing />
+
+<TeachCodingToStudents />
+
+<WhatIsCreativeCoding />
+
+<KotlinXCreativeCoding />
+
+<WhatIsOpenrndr />
 
 <Slide>
   <Code language="kotlin" lineNumbers={true}>{`

@@ -10,6 +10,10 @@
     'Hiragino Sans', Meiryo, sans-serif;
 }
 
+.reveal img {
+  margin: 0;
+}
+
 .reveal pre {
   box-shadow: none;
 }

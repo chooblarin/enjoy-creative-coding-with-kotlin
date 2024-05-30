@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { resolveRoute } from '$app/paths';
   import Slide from '$lib/components/slide.svelte';
 
