@@ -2,7 +2,7 @@
 	import { resolveRoute } from '$app/paths';
 	import Slide from "$lib/components/slide.svelte";
 
-  const background = resolveRoute("/html/cover-lifegame.html", {});
+  const background = resolveRoute("/html/cover-physarum.html", {});
 </script>
 
 <Slide backgroundColor="black" backgroundIframe={background}>
