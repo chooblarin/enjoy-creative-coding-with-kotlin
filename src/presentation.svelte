@@ -10,17 +10,21 @@
 <Slide>Hello</Slide>
 
 <Slide>
-  World
-
-  <Code
-    >{`
+  <Code language="kotlin" lineNumbers={true}>{`
   fun main() = application {
+    // Configure the window
     configure {
       width = 800
       height = 800
     }
-    program {}
+    program {
+      val cellSize = 100.0
+      val cells = drawer.bounds.grid(cellSize, cellSize)
+
+      extend {
+        drawer.stroke = ColorRGBa.BLACK
+      }
+    }
   }
-  `}</Code
-  >
+  `}</Code>
 </Slide>
