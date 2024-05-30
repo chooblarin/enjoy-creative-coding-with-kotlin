@@ -5,13 +5,6 @@
   import Highlight from 'reveal.js/plugin/highlight/highlight';
   import Notes from 'reveal.js/plugin/notes/notes';
 
-  import 'reveal.js/dist/reveal.css';
-  import 'reveal.js/dist/theme/white.css';
-  import './styles/highlight/styles/monokai-sublime.min.css';
-
-  import './styles/app.css';
-  import './styles/reveal-custom.css';
-
   import Presentation from './presentation.svelte';
 
   onMount(() => {
