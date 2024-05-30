@@ -1,12 +1,12 @@
-@import '@fontsource/noto-serif-jp';
-@import '@fontsource/jetbrains-mono';
+@import '@fontsource-variable/noto-serif-jp';
+@import '@fontsource-variable/jetbrains-mono';
 
 :root {
-  --r-code-font: 'JetBrains Mono';
+  --r-code-font: 'JetBrains Mono Variable';
 }
 
 .reveal {
-  font-family: 'Noto Serif JP', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
+  font-family: 'Noto Serif JP Variable', 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
     'Hiragino Sans', Meiryo, sans-serif;
 }
 

@@ -37,8 +37,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@fontsource/jetbrains-mono": "^5.0.20",
-    "@fontsource/noto-serif-jp": "^5.0.13",
+    "@fontsource-variable/jetbrains-mono": "^5.0.21",
+    "@fontsource-variable/noto-serif-jp": "^5.0.1",
     "@types/reveal.js": "^5.0.3",
     "reveal.js": "^5.1.0"
   }

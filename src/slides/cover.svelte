@@ -6,7 +6,7 @@
 </script>
 
 <Slide backgroundColor="black" backgroundIframe={background}>
-  <div class="font-bold r-fit-text text-start">
+  <div class="font-semibold r-fit-text text-start">
     <div>
       Kotlinで<ruby>愉<rp>(</rp><rt>たの</rt><rp>)</rp></ruby>しむ
     </div>
