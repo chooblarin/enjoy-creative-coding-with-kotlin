@@ -6,6 +6,6 @@
 
 <Slide>
   <img src={kotlinLogo} alt="Kotlin" width="2435" height="528" class="m-0 h-16" />
-  <div class="text-6xl m-8">✖️</div>
+  <div class="text-6xl m-8">❌</div>
   <div class="r-fit-text">クリエイティブコーディング</div>
 </Slide>

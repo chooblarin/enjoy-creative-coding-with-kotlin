@@ -5,7 +5,10 @@
   import 'reveal.js/dist/theme/white.css';
 
   import '$assets/styles/app.css';
+  import '$assets/styles/noto-serif-jp.css';
   import '$assets/styles/reveal-custom.css';
+
+  import '$assets/styles/noto-emoji.css';
 </script>
 
 <svelte:head>
