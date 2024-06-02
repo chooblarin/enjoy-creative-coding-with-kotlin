@@ -40,6 +40,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.0.21",
     "@fontsource-variable/noto-emoji": "^5.0.19",
     "@fontsource-variable/noto-serif-jp": "^5.0.1",
+    "@rive-app/canvas": "^2.16.0",
     "@types/reveal.js": "^5.0.3",
     "reveal.js": "^5.1.0"
   }
