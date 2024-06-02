@@ -12,9 +12,9 @@
 
 <Cover />
 
-<WhatIsProcessing />
-
 <TeachCodingToStudents />
+
+<WhatIsProcessing />
 
 <WhatIsCreativeCoding />
 
