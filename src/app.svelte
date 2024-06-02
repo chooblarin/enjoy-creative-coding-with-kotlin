@@ -17,7 +17,13 @@
       progress: true
     });
 
-    deck.initialize();
+    deck.initialize({
+      width: 960,
+      height: 540,
+      margin: 0.04,
+      minScale: 0.1,
+      maxScale: 2.0
+    });
   });
 </script>
 
