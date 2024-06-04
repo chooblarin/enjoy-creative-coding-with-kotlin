@@ -52,3 +52,21 @@
     </video>
   </div>
 </Slide>
+
+<Slide>
+  <Code language="kotlin">{`
+  fun main() = application {
+    configure {
+      // -- アプリケーションの設定を記述
+    }
+
+    program {
+      // -- ここは一度だけ実行される
+      extend {
+        // -- ここは繰り返し実行される
+      }
+    }
+  }
+  `}
+  </Code>
+</Slide>
