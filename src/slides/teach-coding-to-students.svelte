@@ -13,3 +13,10 @@
   </div>
   <a href="https://prtimes.jp/main/html/rd/p/000000237.000005362.html" class="text-sm">https://prtimes.jp/main/html/rd/p/000000237.000005362.html</a>
 </Slide>
+
+<Slide>
+  <div class="text-5xl">
+    <div class="my-4">プログラミングの学習は</div>
+    <div class="my-4">楽しくなければならない</div>
+  </div>
+</Slide>

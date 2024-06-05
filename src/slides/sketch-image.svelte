@@ -1,11 +1,11 @@
 <script lang="ts">
   import Slide from "$lib/components/slide.svelte";
 
-  import original from "$assets/images/sketches/image/Kotlin Monochrome Logo Black Mark RGB.svg";
-  import demo1 from "$assets/images/sketches/image/demo-1.gif";
-  import demo2 from "$assets/images/sketches/image/demo-2.gif";
-  import demo3 from "$assets/images/sketches/image/demo-3.gif";
-  import demo4 from "$assets/images/sketches/image/demo-4.gif";
+  import original from "$assets/sketches/image/Kotlin Monochrome Logo Black Mark RGB.svg";
+  import demo1 from "$assets/sketches/image/demo-1.gif";
+  import demo2 from "$assets/sketches/image/demo-2.gif";
+  import demo3 from "$assets/sketches/image/demo-3.gif";
+  import demo4 from "$assets/sketches/image/demo-4.gif";
 </script>
 
 <Slide>

@@ -1,6 +1,7 @@
 <script lang="ts">
   
   import Cover from './slides/cover.svelte';
+  import DelegateMagic from './slides/delegate-magic.svelte';
   import KotlinXCreativeCoding from './slides/kotlin-x-creative-coding.svelte';
   import RiveDemo from './slides/rive-demo.svelte';
   import SketchImage from './slides/sketch-image.svelte';
@@ -23,6 +24,8 @@
 <KotlinXCreativeCoding />
 
 <WhatIsOpenrndr />
+
+<DelegateMagic />
 
 <SketchNoise />
 

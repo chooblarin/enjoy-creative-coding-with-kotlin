@@ -70,3 +70,27 @@
   `}
   </Code>
 </Slide>
+
+<Slide>
+  <div class="text-5xl mb-4">ORX (OPENRNDR Extras)</div>
+  <div class="text-3xl mb-8">
+    <a href="https://github.com/openrndr/orx"><code>https://github.com/openrndr/orx</code></a>
+  </div>
+  <div class="text-2xl">OPENRNDRをさらに豊かにする拡張ライブラリ群</div>
+</Slide>
+
+<Slide>
+  <ul class="text-2xl">
+    <li><code>orx-color</code></li>
+    <li><code>orx-compositor</code></li>
+    <li><code>orx-gui</code></li>
+    <li><code>orx-noise</code></li>
+    <li><code>orx-fft</code></li>
+    <li><code>orx-fx</code></li>
+    <li><code>orx-svg</code></li>
+    <li><code>orx-midi</code></li>
+    <li><code>orx-olive</code></li>
+    <li><code>orx-video-profiles</code></li>
+    etc...
+  </ul>
+</Slide>
