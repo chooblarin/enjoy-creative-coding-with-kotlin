@@ -6,6 +6,11 @@
     import fbmTemporal from "$assets/sketches/noise/noise-fbm-temporal.mp4";
     import perlin from "$assets/sketches/noise/noise-perlin.png";
     import uniform from "$assets/sketches/noise/noise-uniform.png";
+
+    import cbBillow from "$assets/sketches/noise/cb/billow-temporal-cb.mp4";
+    import cbFbm from "$assets/sketches/noise/cb/fbm-temporal-cb.mp4";
+    import cbRigid from "$assets/sketches/noise/cb/rigid-temporal-cb.mp4";
+    import cbSimplex from "$assets/sketches/noise/cb/simplex-temporal-cb.mp4";
 </script>
 
 <Slide>
@@ -226,3 +231,35 @@
   </div>
 </Slide>
 -->
+
+<Slide transition="fade">
+  <div class="grid grid-cols-4 max-h-full text-3xl">
+    <div>
+      <div class="mb-4"><code>simplex()</code></div>
+      <video width="1280" height="960" autoplay loop muted playsinline class="h-auto">
+        <source type="video/mp4" src={cbSimplex} />
+      </video>
+    </div>
+
+    <div>
+      <div class="mb-4"><code>fbm()</code></div>
+      <video width="1280" height="960" autoplay loop muted playsinline class="h-auto">
+        <source type="video/mp4" src={cbFbm} />
+      </video>
+    </div>
+
+    <div>
+      <div class="mb-4"><code>rigid()</code></div>
+      <video width="1280" height="960" autoplay loop muted playsinline class="h-auto">
+        <source type="video/mp4" src={cbRigid} />
+      </video>
+    </div>
+
+    <div>
+      <div class="mb-4"><code>billow()</code></div>
+      <video width="1280" height="960" autoplay loop muted playsinline class="h-auto">
+        <source type="video/mp4" src={cbBillow} />
+      </video>
+    </div>
+  </div>
+</Slide>
