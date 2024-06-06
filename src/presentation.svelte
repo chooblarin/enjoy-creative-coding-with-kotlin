@@ -5,6 +5,7 @@
   import KotlinXCreativeCoding from './slides/kotlin-x-creative-coding.svelte';
   import RiveDemo from './slides/rive-demo.svelte';
   import SketchImage from './slides/sketch-image.svelte';
+  import SketchNoiseAdvanced from './slides/sketch-noise-advanced.svelte';
   import SketchNoise from './slides/sketch-noise.svelte';
   import SketchSimulation from './slides/sketch-simulation.svelte';
   import TeachCodingToStudents from './slides/teach-coding-to-students.svelte';
@@ -28,6 +29,8 @@
 <DelegateMagic />
 
 <SketchNoise />
+
+<SketchNoiseAdvanced />
 
 <SketchImage />
 
