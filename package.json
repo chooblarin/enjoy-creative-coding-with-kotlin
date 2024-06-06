@@ -42,6 +42,7 @@
     "@fontsource-variable/noto-serif-jp": "^5.0.1",
     "@rive-app/canvas": "^2.16.0",
     "@types/reveal.js": "^5.0.3",
+    "clsx": "^2.1.1",
     "reveal.js": "^5.1.0"
   }
 }
