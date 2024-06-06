@@ -1,17 +1,16 @@
 import Reveal from 'reveal.js';
 import Highlight from 'reveal.js/plugin/highlight/highlight';
-import Notes from 'reveal.js/plugin/notes/notes';
 
 let reveal: Reveal.Api;
 
 export default function getReveal() {
   if (!reveal) {
     reveal = new Reveal({
-      plugins: [Highlight, Notes],
+      plugins: [Highlight],
       autoAnimateEasing: 'ease',
       autoAnimateDuration: 1,
       hash: true,
-      controls: true,
+      controls: false,
       progress: true
     });
 
