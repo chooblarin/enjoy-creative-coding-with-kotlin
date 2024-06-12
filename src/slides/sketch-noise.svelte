@@ -1,28 +1,30 @@
 <script lang="ts">
-    import Code from "$lib/components/code.svelte";
-    import Slide from "$lib/components/slide.svelte";
+  import Code from '$lib/components/code.svelte';
+  import Slide from '$lib/components/slide.svelte';
 
-    import monoColor from "$assets/sketches/noise/mono-color.png";
-    import fbmTemporal from "$assets/sketches/noise/noise-fbm-temporal.mp4";
-    import perlin from "$assets/sketches/noise/noise-perlin.png";
-    import uniform from "$assets/sketches/noise/noise-uniform.png";
+  import monoColor from '$assets/sketches/noise/mono-color.png';
+  import fbmTemporal from '$assets/sketches/noise/noise-fbm-temporal.mp4';
+  import perlin from '$assets/sketches/noise/noise-perlin.png';
+  import uniform from '$assets/sketches/noise/noise-uniform.png';
 
-    import cbBillow from "$assets/sketches/noise/cb/billow-temporal-cb.mp4";
-    import cbFbm from "$assets/sketches/noise/cb/fbm-temporal-cb.mp4";
-    import cbRigid from "$assets/sketches/noise/cb/rigid-temporal-cb.mp4";
-    import cbSimplex from "$assets/sketches/noise/cb/simplex-temporal-cb.mp4";
+  import cbBillow from '$assets/sketches/noise/cb/billow-temporal-cb.mp4';
+  import cbFbm from '$assets/sketches/noise/cb/fbm-temporal-cb.mp4';
+  import cbRigid from '$assets/sketches/noise/cb/rigid-temporal-cb.mp4';
+  import cbSimplex from '$assets/sketches/noise/cb/simplex-temporal-cb.mp4';
 </script>
 
 <Slide>
-  <div class="text-8xl mb-8">Noise</div>
+  <div class="mb-8 text-8xl">Noise</div>
   <div>ノイズ</div>
 </Slide>
 
 <!-- Tidy grid -->
 <Slide transition="fade">
+  <div>二次元格子を描いて…</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin"
+        >{`
       fun main() = application {
         program {
           val cells = drawer.bounds.grid(
@@ -39,7 +41,7 @@
     </div>
 
     <div class="h-[480px] max-h-full pt-5">
-      <img src={monoColor} alt="Mono color" class="w-[480px] h-auto" />
+      <img src={monoColor} alt="Mono color" class="h-auto w-[480px]" />
     </div>
   </div>
 </Slide>
@@ -49,7 +51,8 @@
   <div>一様乱数</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin"
+        >{`
       fun main() = application {
         program {
           val cells = drawer.bounds.grid(
@@ -73,7 +76,7 @@
     </div>
 
     <div class="h-[480px] max-h-full pt-5">
-      <img src={uniform} alt="Uniform noise" class="w-[480px] h-auto" />
+      <img src={uniform} alt="Uniform noise" class="h-auto w-[480px]" />
     </div>
   </div>
 </Slide>
@@ -83,7 +86,8 @@
   <div>パーリンノイズ</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin"
+        >{`
       fun main() = application {
         program {
           val cells = drawer.bounds.grid(
@@ -109,7 +113,7 @@
     </div>
 
     <div class="h-[480px] max-h-full pt-5">
-      <img src={perlin} alt="Uniform noise" class="w-[480px] h-auto" />
+      <img src={perlin} alt="Uniform noise" class="h-auto w-[480px]" />
     </div>
   </div>
 </Slide>
@@ -119,7 +123,8 @@
   <div>パーリンノイズ（時間発展）</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin"
+        >{`
       fun main() = application {
         program {
           val cells = drawer.bounds.grid(
@@ -145,7 +150,7 @@
     </div>
 
     <div class="h-[480px] max-h-full pt-5">
-      <video width="1280" height="960" autoplay loop muted playsinline class="w-[480px] h-auto">
+      <video width="1280" height="960" autoplay loop muted playsinline class="h-auto w-[480px]">
         <source type="video/mp4" src={fbmTemporal} />
       </video>
     </div>
@@ -233,7 +238,7 @@
 -->
 
 <Slide transition="fade">
-  <div class="grid grid-cols-4 max-h-full text-3xl">
+  <div class="grid max-h-full grid-cols-4 text-3xl">
     <div>
       <div class="mb-4"><code>simplex()</code></div>
       <video width="1280" height="960" autoplay loop muted playsinline class="h-auto">
