@@ -41,7 +41,7 @@
     </div>
 
     <div class="h-[480px] max-h-full pt-5">
-      <img src={monoColor} alt="Mono color" class="h-auto w-[480px]" />
+      <img src={monoColor} alt="Mono color" class="h-auto w-[480px]" width="1280" height="960" />
     </div>
   </div>
 </Slide>

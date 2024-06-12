@@ -1,11 +1,13 @@
 <script lang="ts">
-  
   import Cover from './slides/cover.svelte';
   import DelegateMagic from './slides/delegate-magic.svelte';
   import KotlinXCreativeCoding from './slides/kotlin-x-creative-coding.svelte';
   import SketchImage from './slides/sketch-image.svelte';
   import SketchNoiseAdvanced from './slides/sketch-noise-advanced.svelte';
   import SketchNoise from './slides/sketch-noise.svelte';
+  import SketchSimulationBoid from './slides/sketch-simulation-boid.svelte';
+  import SketchSimulationDla from './slides/sketch-simulation-dla.svelte';
+  import SketchSimulationPhysarum from './slides/sketch-simulation-physarum.svelte';
   import SketchSimulation from './slides/sketch-simulation.svelte';
   import TeachCodingToStudents from './slides/teach-coding-to-students.svelte';
   import Thankyou from './slides/thankyou.svelte';
@@ -35,5 +37,11 @@
 <SketchImage />
 
 <SketchSimulation />
+
+<SketchSimulationDla />
+
+<SketchSimulationBoid />
+
+<SketchSimulationPhysarum />
 
 <Thankyou />

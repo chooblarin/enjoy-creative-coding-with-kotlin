@@ -3,6 +3,6 @@
 </script>
 
 <Slide>
-  <div class="mb-4 text-8xl">Simulation</div>
-  <div>シミュレーション</div>
+  <div>Boid</div>
+  <!-- TODO -->
 </Slide>
