@@ -5,7 +5,7 @@
   import SketchImage from './slides/sketch-image.svelte';
   import SketchNoiseAdvanced from './slides/sketch-noise-advanced.svelte';
   import SketchNoise from './slides/sketch-noise.svelte';
-  import SketchSimulationBoid from './slides/sketch-simulation-boid.svelte';
+  import SketchSimulationBoids from './slides/sketch-simulation-boids.svelte';
   import SketchSimulationDla from './slides/sketch-simulation-dla.svelte';
   import SketchSimulationPhysarum from './slides/sketch-simulation-physarum.svelte';
   import SketchSimulation from './slides/sketch-simulation.svelte';
@@ -40,7 +40,7 @@
 
 <SketchSimulationDla />
 
-<SketchSimulationBoid />
+<SketchSimulationBoids />
 
 <SketchSimulationPhysarum />
 
