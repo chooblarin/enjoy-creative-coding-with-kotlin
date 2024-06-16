@@ -3,8 +3,10 @@
   import Slide from '$lib/components/slide.svelte';
 
   import brownianMotion from '$assets/sketches/simulation/dla/brownian-motion.mp4';
-  import dla from '$assets/sketches/simulation/dla/dla.mp4';
   import scattered from '$assets/sketches/simulation/dla/scattered-particles.png';
+
+  import dla from '$assets/sketches/simulation/dla/dla.mp4';
+  import kotlinFestGrowth from '$assets/sketches/simulation/dla/kotlin-fest-growth.png';
 </script>
 
 <Slide>
@@ -28,7 +30,7 @@
   <div>粒子を描く</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers={true}
         >{`
       fun main() = application {
         program {
@@ -61,7 +63,7 @@
   <div>ランダムに動かす（ブラウン運動）</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers="4,11-15"
         >{`
       fun main() = application {
         program {
@@ -115,5 +117,17 @@
     >
       <source type="video/mp4" src={dla} />
     </video>
+  </div>
+</Slide>
+
+<Slide transition="fade">
+  <div class="flex place-content-center">
+    <img
+      src={kotlinFestGrowth}
+      alt="Kotlin Fest Growth"
+      class="mx-auto max-h-full w-[400px]"
+      width="1280"
+      height="1280"
+    />
   </div>
 </Slide>
