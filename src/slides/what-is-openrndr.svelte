@@ -7,10 +7,10 @@
 </script>
 
 <Slide backgroundColor="pink" transition="fade-out">
-  <img src={openrndrLogo} width="303" height="47" alt="OPENRNDR" />
+  <a href="https://openrndr.org/" target="_blank" rel="noopener noreferrer">
+    <img src={openrndrLogo} width="303" height="47" alt="OPENRNDR" />
+  </a>
 </Slide>
-
-<Slide backgroundColor="pink" backgroundIframe="https://openrndr.org/" transition="fade-in"></Slide>
 
 <Slide>
   <div class="mb-8">OPENRNDRのはじめ方</div>
