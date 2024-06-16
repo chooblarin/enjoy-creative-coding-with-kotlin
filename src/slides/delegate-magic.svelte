@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Code from "$lib/components/code.svelte";
-  import Slide from "$lib/components/slide.svelte";
+  import Code from '$lib/components/code.svelte';
+  import Slide from '$lib/components/slide.svelte';
 
-  import demo1 from "$assets/videos/delegate-magic/demo-1.mp4";
-  import demo2 from "$assets/videos/delegate-magic/demo-2.mp4";
-  import demo3 from "$assets/videos/delegate-magic/demo-3.mp4";
+  import demo1 from '$assets/videos/delegate-magic/demo-1.mp4';
+  import demo2 from '$assets/videos/delegate-magic/demo-2.mp4';
+  import demo3 from '$assets/videos/delegate-magic/demo-3.mp4';
 </script>
 
 <Slide>
@@ -15,9 +15,11 @@
 
 <!-- Demo 1 -->
 <Slide transition="fade">
-  <div class="grid grid-cols-[1.5fr_1fr]">
+  <div class="text-3xl">マウスの位置に円を描画</div>
+  <div class="grid grid-cols-[1fr_320px]">
     <div class="text-3xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin" lineNumbers="|5"
+        >{`
       program {
         extend(NoClear()) // 描画ごとにクリアしない
         extend {
@@ -30,7 +32,16 @@
     </div>
 
     <div class="h-[480px] max-h-full">
-      <video width="1600" height="1600" autoplay controls loop muted playsinline class="w-[480px] h-auto m-5">
+      <video
+        width="1600"
+        height="1600"
+        autoplay
+        controls
+        loop
+        muted
+        playsinline
+        class="mt-5 h-auto w-[480px]"
+      >
         <source type="video/mp4" src={demo1} />
       </video>
     </div>
@@ -39,9 +50,11 @@
 
 <!-- Demo 2 -->
 <Slide transition="fade">
-  <div class="grid grid-cols-[1.5fr_1fr]">
+  <div class="text-3xl"><code>following</code></div>
+  <div class="grid grid-cols-[1fr_320px]">
     <div class="text-3xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin" lineNumbers="|5-6,10"
+        >{`
       program {
         val target = object {
             var posision = Vector2.ZERO
@@ -61,7 +74,16 @@
     </div>
 
     <div class="h-[480px] max-h-full">
-      <video width="1600" height="1600" autoplay controls loop muted playsinline class="w-[480px] h-auto m-5">
+      <video
+        width="1600"
+        height="1600"
+        autoplay
+        controls
+        loop
+        muted
+        playsinline
+        class="mt-5 h-auto w-[480px]"
+      >
         <source type="video/mp4" src={demo2} />
       </video>
     </div>
@@ -70,9 +92,11 @@
 
 <!-- Demo 3 -->
 <Slide transition="fade">
-  <div class="grid grid-cols-[1.5fr_1fr]">
+  <div class="text-3xl"><code>springForcing</code></div>
+  <div class="grid grid-cols-[1fr_320px]">
     <div class="text-3xl">
-      <Code language="kotlin">{`
+      <Code language="kotlin" lineNumbers="5-8"
+        >{`
       program {
         val target = object {
             var posision = Vector2.ZERO
@@ -93,7 +117,16 @@
     </div>
 
     <div class="h-[480px] max-h-full">
-      <video width="1600" height="1600" autoplay controls loop muted playsinline class="w-[480px] h-auto m-5">
+      <video
+        width="1600"
+        height="1600"
+        autoplay
+        controls
+        loop
+        muted
+        playsinline
+        class="mt-5 h-auto w-[480px]"
+      >
         <source type="video/mp4" src={demo3} />
       </video>
     </div>

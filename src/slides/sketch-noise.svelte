@@ -23,7 +23,7 @@
   <div>二次元格子を描いて…</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers={true}
         >{`
       fun main() = application {
         program {
@@ -51,7 +51,7 @@
   <div>一様乱数</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers="8,9-15|8,11-12"
         >{`
       fun main() = application {
         program {
@@ -64,8 +64,8 @@
             drawer.rectangles {
               cells.flatten().forEach {
                 val hue = Double.uniform(0.0, 360.0, Random.rnd)
-                drawer.fill = hsl(hue, 0.8, 0.6).toRGBa()
-                drawer.rectangle(it)
+                fill = hsl(hue, 0.8, 0.6).toRGBa()
+                rectangle(it)
               }
             }
           }
@@ -86,7 +86,7 @@
   <div>パーリンノイズ</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers="8-17"
         >{`
       fun main() = application {
         program {
@@ -100,9 +100,8 @@
                 val p = it.center * 0.01
                 val n = perlin(42, p) * 0.5 + 0.5
                 val hue = 360.0 * n
-                println(hue)
-                drawer.fill = hsl(hue, 0.8, 0.6).toRGBa()
-                drawer.rectangle(it)
+                fill = hsl(hue, 0.8, 0.6).toRGBa()
+                rectangle(it)
               }
             }
           }
@@ -123,7 +122,7 @@
   <div>パーリンノイズ（時間発展）</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin"
+      <Code language="kotlin" lineNumbers="11-13"
         >{`
       fun main() = application {
         program {
@@ -138,8 +137,8 @@
                 val time = seconds * 0.8
                 val n = perlin(42, p.x, p.y, time) * 0.5 + 0.5
                 val hue = 360.0 * n
-                drawer.fill = hsl(hue, 0.8, 0.6).toRGBa()
-                drawer.rectangle(it)
+                fill = hsl(hue, 0.8, 0.6).toRGBa()
+                rectangle(it)
               }
             }
           }
