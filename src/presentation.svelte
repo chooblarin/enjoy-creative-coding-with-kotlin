@@ -2,7 +2,6 @@
   import Cover from './slides/cover.svelte';
   import DelegateMagic from './slides/delegate-magic.svelte';
   import KotlinXCreativeCoding from './slides/kotlin-x-creative-coding.svelte';
-  import SketchImage from './slides/sketch-image.svelte';
   import SketchNoiseAdvanced from './slides/sketch-noise-advanced.svelte';
   import SketchNoise from './slides/sketch-noise.svelte';
   import SketchSimulationBoids from './slides/sketch-simulation-boids.svelte';
@@ -33,8 +32,6 @@
 <SketchNoise />
 
 <SketchNoiseAdvanced />
-
-<SketchImage />
 
 <SketchSimulation />
 
