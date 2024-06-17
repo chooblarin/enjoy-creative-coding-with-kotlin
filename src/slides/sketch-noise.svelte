@@ -20,7 +20,7 @@
 
 <!-- Tidy grid -->
 <Slide transition="fade">
-  <div>二次元格子を描いて…</div>
+  <div>二次元格子</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
       <Code language="kotlin" lineNumbers={true}

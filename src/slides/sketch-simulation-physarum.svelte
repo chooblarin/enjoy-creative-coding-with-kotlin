@@ -140,16 +140,4 @@
   </div>
 </Slide>
 
-<Slide transition="fade">
-  <div class="grid grid-cols-[320px_1fr] px-8">
-    <div class="flex place-content-center">
-      <img src={sensorBehavior4} alt="" width="200" height="200" />
-    </div>
-    <div class="text-left text-3xl">
-      <div>「左 &lt; 前 &lt; 右」の場合</div>
-      <div class="mt-4 pl-8 font-bold">→ 右を向く</div>
-    </div>
-  </div>
-</Slide>
-
 <Slide transition="fade">デモ</Slide>
