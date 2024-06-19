@@ -2,6 +2,11 @@
   import Code from '$lib/components/code.svelte';
   import Slide from '$lib/components/slide.svelte';
 
+  import explain1 from '$assets/images/explain-dla/dla-explained-1.png';
+  import explain2 from '$assets/images/explain-dla/dla-explained-2.png';
+  import explain3 from '$assets/images/explain-dla/dla-explained-3.png';
+  import explain4 from '$assets/images/explain-dla/dla-explained-4.png';
+
   import brownianMotion from '$assets/sketches/simulation/dla/brownian-motion.mp4';
   import scattered from '$assets/sketches/simulation/dla/scattered-particles.png';
 
@@ -15,15 +20,38 @@
   </div>
 </Slide>
 
-<Slide>
-  <div class="mb-8">コンセプト</div>
-  <ol class="text-2xl">
-    <li>フィールド上をランダムに動き回るたくさんの粒子がある</li>
-    <li>フィールドにはあるスポットがあり、粒子はそこにぶつかると停止する</li>
-    <li>停止した粒子にぶつかった粒子も停止</li>
-    <li>このようにして、十分に時間が経過するとすべての粒子が停止状態になる</li>
-  </ol>
-  <div class="mt-8 text-2xl">連結した粒子たちはどのような形になるかをシミュレーション</div>
+<Slide id="explain-dla" animate={true}>
+  <div class="grid grid-cols-4 px-8">
+    <img src={explain1} alt="" width="200" height="200" />
+  </div>
+  <div class="mt-8 text-center text-3xl">フィールド上をランダムに動き回るたくさんの粒子がある</div>
+</Slide>
+
+<Slide id="explain-dla" animate={true}>
+  <div class="grid grid-cols-4 px-8">
+    <img src={explain1} alt="" width="200" height="200" />
+    <img src={explain2} alt="" width="200" height="200" />
+  </div>
+  <div class="mt-8 text-center text-3xl">真ん中に核を配置する。</div>
+</Slide>
+
+<Slide id="explain-dla" animate={true}>
+  <div class="grid grid-cols-4 px-8">
+    <img src={explain1} alt="" width="200" height="200" />
+    <img src={explain2} alt="" width="200" height="200" />
+    <img src={explain3} alt="" width="200" height="200" />
+  </div>
+  <div class="mt-8 text-center text-3xl">粒子は核にぶつかると吸着して核を拡張する。</div>
+</Slide>
+
+<Slide id="explain-dla" animate={true}>
+  <div class="grid grid-cols-4 px-8">
+    <img src={explain1} alt="" width="200" height="200" />
+    <img src={explain2} alt="" width="200" height="200" />
+    <img src={explain3} alt="" width="200" height="200" />
+    <img src={explain4} alt="" width="200" height="200" />
+  </div>
+  <div class="mt-8 text-center text-3xl">時間経過とともに核が成長していく。</div>
 </Slide>
 
 <Slide transition="fade">
