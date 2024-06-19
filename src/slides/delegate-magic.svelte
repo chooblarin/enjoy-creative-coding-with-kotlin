@@ -53,7 +53,7 @@
   <div class="text-3xl"><code>following</code></div>
   <div class="grid grid-cols-[1fr_320px]">
     <div class="text-3xl">
-      <Code language="kotlin" lineNumbers="|5-6,10,12"
+      <Code language="kotlin" lineNumbers="|2-4,5-6,10,12"
         >{`
       program {
         val target = object {

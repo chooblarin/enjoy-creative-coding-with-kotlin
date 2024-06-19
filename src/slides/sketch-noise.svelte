@@ -51,7 +51,7 @@
   <div>一様乱数</div>
   <div class="grid grid-cols-[1.5fr_1fr]">
     <div class="text-2xl">
-      <Code language="kotlin" lineNumbers="8,9-15|8,11-12"
+      <Code language="kotlin" lineNumbers="8,9-15"
         >{`
       fun main() = application {
         program {
