@@ -12,6 +12,7 @@
   import sensorBehavior1 from '$assets/images/explain-physarum/behavior/physarum-sensor-no-change.png';
   import sensorBehavior2 from '$assets/images/explain-physarum/behavior/physarum-sensor-random.png';
   import sensorBehavior4 from '$assets/images/explain-physarum/behavior/physarum-sensor-right.png';
+  import diffuseDecay from '$assets/images/explain-physarum/physarum-diffuse-decay.png';
 
   import physarumSimulation from '$assets/sketches/simulation/physarum/physarum-simulation.mp4';
 </script>
@@ -137,6 +138,12 @@
       <div>「左 &lt; 前 &lt; 右」の場合</div>
       <div class="mt-4 pl-8 font-bold">→ 右を向く</div>
     </div>
+  </div>
+</Slide>
+
+<Slide transition="fade">
+  <div class="flex place-content-center">
+    <img src={diffuseDecay} alt="" width="640" height="560" />
   </div>
 </Slide>
 
