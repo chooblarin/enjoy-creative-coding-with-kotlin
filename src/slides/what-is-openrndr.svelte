@@ -49,7 +49,7 @@
 
 <Slide transition="fade">
   <div class="grid grid-cols-[1fr_1.5fr]">
-    <div class="h-[480px] max-h-full">
+    <div class="h-[480px] max-h-full pt-5">
       <video
         width="1280"
         height="960"
@@ -110,6 +110,7 @@
   <div class="text-2xl">OPENRNDRをさらに豊かにする拡張ライブラリ群</div>
 </Slide>
 
+<!--
 <Slide>
   <ul class="text-2xl">
     <li><code>orx-color</code></li>
@@ -125,3 +126,4 @@
     etc...
   </ul>
 </Slide>
+ -->

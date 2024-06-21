@@ -133,7 +133,7 @@
 
 <Slide transition="fade">
   <div class="h-[480px] max-h-full place-content-center">
-    <div class="mb-4 text-2xl">真ん中にスポットを配置してシミュレーション（20倍速）</div>
+    <div class="mb-4 text-2xl">真ん中に核を配置してシミュレーション（20倍速）</div>
     <video
       width="1280"
       height="1280"
