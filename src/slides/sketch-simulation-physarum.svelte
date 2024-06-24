@@ -1,5 +1,6 @@
 <script lang="ts">
   import Slide from '$lib/components/slide.svelte';
+  import { Github } from 'lucide-svelte';
 
   import explain1 from '$assets/images/explain-physarum/physarum model 1.png';
   import explain2 from '$assets/images/explain-physarum/physarum model 2.png';
@@ -125,4 +126,15 @@
   </div>
 </Slide>
 
-<Slide transition="fade">デモ</Slide>
+<Slide transition="fade">
+  デモ
+  <div class="mt-8 flex items-center justify-center gap-2 text-2xl">
+    <Github class="size-8" />
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/chooblarin/enjoy-creative-coding-with-kotlin-demo"
+      >chooblarin/enjoy-creative-coding-with-kotlin-demo</a
+    >
+  </div>
+</Slide>
